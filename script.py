@@ -10,7 +10,7 @@ def main():
 
     df = pd.DataFrame(data)
     df.to_excel('output.xlsx', index=False)
-    prin("Archivo Excel 'output.xlsx' generado exitosamente")
+    print("Archivo Excel 'output.xlsx' generado exitosamente")
 
 if __name__ == '__main__':
     main()
